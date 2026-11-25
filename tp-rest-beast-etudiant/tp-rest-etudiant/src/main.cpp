@@ -25,6 +25,7 @@ int main(int argc, char* argv[])
 
     ServicesManager manager;
     // TODO Question 3 : enregistrer une instance de VersionService
+    manager.registerService(std::make_unique<VersionService>());
     // TODO Question 6 : enregistrer une instance de UserService
 
     try {

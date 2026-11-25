@@ -7,13 +7,21 @@
 void ServicesManager::registerService(std::unique_ptr<AbstractService> service)
 {
     // TODO Question 3
-    (void)service;
+    services_.push_back(std::move(service));
 }
 
 AbstractService* ServicesManager::findService(std::string_view url) const
 {
     // TODO Question 3
-    (void)url;
+    // renvoie l'adresse du service correspondant à l'URL,sinon nullptr
+    // un service correspond à l'URL si son motif désigne le premier segment de l'URL
+    // les URL /version,/version/suite et /version/23 correspondent, /versions ne correspond pas
+    // les méthodes std::string_view::starts_with() et .get() du unique_ptr sont utiles
+    for (const auto& service : services_) {
+        if (url=="/version" || (url.size()>service->getPattern().size() && url.starts_with(service->getPattern()) && url[service->getPattern().size()]=='/')) {
+            return service.get();
+        }
+    }
     return nullptr;
 }
 
@@ -23,14 +31,24 @@ http::status ServicesManager::queryService(std::string& out, const std::string& 
     // TODO Questions 1, 3, 4, 5, 7, 9, 11
     
     (void)in;
-    if (url!="/version") {
-        throw ServiceException(http::status::not_found, "URL not found");
+    AbstractService* service = findService(url);
+    if (!service) {
+        throw ServiceException(http::status::not_found, "Service not found");
     }
 
-    if (method!=http::verb::get) {
-        throw ServiceException(http::status::method_not_allowed,"Method not allowed");
+    json::value temp;
+    
+    switch (method) {
+        case http::verb::get:
+            service->get(temp, std::nullopt);
+            break;
+        case http::verb::post:
+            throw ServiceException(http::status::not_implemented, "POST not implemented yet");
+        case http::verb::patch:
+            throw ServiceException(http::status::not_implemented, "PATCH not implemented yet");
+        default:
+            throw ServiceException(http::status::method_not_allowed, "Method not allowed");
     }
-    json::value obj={{"major",1},{"minor",0}};
-    out=json::serialize(obj);
+    out=json::serialize(temp);
     return http::status::ok;
 }
