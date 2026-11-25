@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/build",
+  "command": "/usr/bin/c++ -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_DYN_LINK -DBOOST_JSON_NO_LIB -I/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/server.dir/src/AbstractService.cpp.o -c /home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/AbstractService.cpp",
+  "file": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/AbstractService.cpp",
+  "output": "CMakeFiles/server.dir/src/AbstractService.cpp.o"
+},
+{
+  "directory": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/build",
+  "command": "/usr/bin/c++ -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_DYN_LINK -DBOOST_JSON_NO_LIB -I/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/server.dir/src/HttpServer.cpp.o -c /home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/HttpServer.cpp",
+  "file": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/HttpServer.cpp",
+  "output": "CMakeFiles/server.dir/src/HttpServer.cpp.o"
+},
+{
+  "directory": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/build",
+  "command": "/usr/bin/c++ -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_DYN_LINK -DBOOST_JSON_NO_LIB -I/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/server.dir/src/ServicesManager.cpp.o -c /home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/ServicesManager.cpp",
+  "file": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/ServicesManager.cpp",
+  "output": "CMakeFiles/server.dir/src/ServicesManager.cpp.o"
+},
+{
+  "directory": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/build",
+  "command": "/usr/bin/c++ -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_DYN_LINK -DBOOST_JSON_NO_LIB -I/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/server.dir/src/UserDB.cpp.o -c /home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/UserDB.cpp",
+  "file": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/UserDB.cpp",
+  "output": "CMakeFiles/server.dir/src/UserDB.cpp.o"
+},
+{
+  "directory": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/build",
+  "command": "/usr/bin/c++ -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_DYN_LINK -DBOOST_JSON_NO_LIB -I/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/server.dir/src/UserService.cpp.o -c /home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/UserService.cpp",
+  "file": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/UserService.cpp",
+  "output": "CMakeFiles/server.dir/src/UserService.cpp.o"
+},
+{
+  "directory": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/build",
+  "command": "/usr/bin/c++ -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_DYN_LINK -DBOOST_JSON_NO_LIB -I/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/server.dir/src/VersionService.cpp.o -c /home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/VersionService.cpp",
+  "file": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/VersionService.cpp",
+  "output": "CMakeFiles/server.dir/src/VersionService.cpp.o"
+},
+{
+  "directory": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/build",
+  "command": "/usr/bin/c++ -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_DYN_LINK -DBOOST_JSON_NO_LIB -I/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/server.dir/src/main.cpp.o -c /home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/main.cpp",
+  "file": "/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/src/main.cpp",
+  "output": "CMakeFiles/server.dir/src/main.cpp.o"
+}
+]

@@ -1,0 +1,3 @@
+/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/build/CMakeFiles/server.dir
+/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/build/CMakeFiles/edit_cache.dir
+/home/agathe/Desktop/SysRes/TP_API/tp-rest-beast-etudiant/tp-rest-etudiant/build/CMakeFiles/rebuild_cache.dir
